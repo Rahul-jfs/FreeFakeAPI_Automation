@@ -1,0 +1,772 @@
+13:16:02.228 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+13:16:06.293 [main] INFO  com.intuit.karate - [print] [
+  {
+    "id": "1",
+    "title": "Let me explain",
+    "content": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects,",
+    "slug": "let-me-explain",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/1",
+    "_links": {
+      "self": {
+        "href": "/api/posts/1"
+      },
+      "modify": {
+        "href": "/api/posts/1"
+      },
+      "delete": {
+        "href": "/api/posts/1"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "title": "Far Far Away",
+    "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary",
+    "slug": "far-far-away",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/5",
+    "_links": {
+      "self": {
+        "href": "/api/posts/2"
+      },
+      "modify": {
+        "href": "/api/posts/2"
+      },
+      "delete": {
+        "href": "/api/posts/2"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "title": "Captain From The Portal",
+    "content": "Why I say old chap that is spiffing cack some dodgy chav bugger all mate mufty bleeding nancy boy he nicked it haggle bits and bobs in my flat hanky panky brolly lemon squeezy down the pub ruddy wellies mush buggered vagabond spiffing good time blow off baking cakes have it super William so I said blimey arse over tit a butty cheeky bugger Oxford loo arse lost the plot easy peasy cup of char gosh bonnet cockup absolutely bladdered dropped a clanger",
+    "slug": "captain-from-the-portal",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/4",
+    "_links": {
+      "self": {
+        "href": "/api/posts/3"
+      },
+      "modify": {
+        "href": "/api/posts/3"
+      },
+      "delete": {
+        "href": "/api/posts/3"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "title": "Stranger With Four Eyes",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+    "slug": "stranger-with-four-eyes",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/8",
+    "_links": {
+      "self": {
+        "href": "/api/posts/4"
+      },
+      "modify": {
+        "href": "/api/posts/4"
+      },
+      "delete": {
+        "href": "/api/posts/4"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "title": "Enemies Of Nowhere",
+    "content": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "slug": "enemies-of-nowhere",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/5",
+    "_links": {
+      "self": {
+        "href": "/api/posts/5"
+      },
+      "modify": {
+        "href": "/api/posts/5"
+      },
+      "delete": {
+        "href": "/api/posts/5"
+      }
+    }
+  },
+  {
+    "id": "6",
+    "title": "Creators And Martians",
+    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+    "slug": "creators-and-martians",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/7",
+    "_links": {
+      "self": {
+        "href": "/api/posts/6"
+      },
+      "modify": {
+        "href": "/api/posts/6"
+      },
+      "delete": {
+        "href": "/api/posts/6"
+      }
+    }
+  },
+  {
+    "id": "7",
+    "title": "Hidden By Solar Flares",
+    "content": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+    "slug": "hidden-by-solar-flares",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/6",
+    "_links": {
+      "self": {
+        "href": "/api/posts/7"
+      },
+      "modify": {
+        "href": "/api/posts/7"
+      },
+      "delete": {
+        "href": "/api/posts/7"
+      }
+    }
+  },
+  {
+    "id": "8",
+    "title": "Serenity Of Outer Space",
+    "content": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "slug": "serenity-of-outer-space",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/10",
+    "_links": {
+      "self": {
+        "href": "/api/posts/8"
+      },
+      "modify": {
+        "href": "/api/posts/8"
+      },
+      "delete": {
+        "href": "/api/posts/8"
+      }
+    }
+  },
+  {
+    "id": "9",
+    "title": "Officers With Spaceships",
+    "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "slug": "officers-with-spaceships",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/3",
+    "_links": {
+      "self": {
+        "href": "/api/posts/9"
+      },
+      "modify": {
+        "href": "/api/posts/9"
+      },
+      "delete": {
+        "href": "/api/posts/9"
+      }
+    }
+  },
+  {
+    "id": "10",
+    "title": "Leaders And Leaders",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "slug": "leaders-and-leaders",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/2",
+    "_links": {
+      "self": {
+        "href": "/api/posts/10"
+      },
+      "modify": {
+        "href": "/api/posts/10"
+      },
+      "delete": {
+        "href": "/api/posts/10"
+      }
+    }
+  },
+  {
+    "id": "11",
+    "title": "5 Killer Quora Answers on History",
+    "content": "Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.",
+    "slug": "5-killer-quoraanswers-on-history",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/5",
+    "_links": {
+      "self": {
+        "href": "/api/posts/11"
+      },
+      "modify": {
+        "href": "/api/posts/11"
+      },
+      "delete": {
+        "href": "/api/posts/11"
+      }
+    }
+  },
+  {
+    "id": "12",
+    "title": "History Explained in Fewer than 140 Characters",
+    "content": "Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.",
+    "slug": "history-explained-in-fewer-than-140-characters",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/8",
+    "_links": {
+      "self": {
+        "href": "/api/posts/12"
+      },
+      "modify": {
+        "href": "/api/posts/12"
+      },
+      "delete": {
+        "href": "/api/posts/12"
+      }
+    }
+  },
+  {
+    "id": "13",
+    "title": "A Step-by-Step Guide to History",
+    "content": "Vel ut exerci meliore luptatum. Explicari omittantur ut qui. Ullum tibique omittam ea ius, no vel zril percipit definiebas. Vidisse aperiri et est.\r\n\r\nSumo oportere ad mea, nam probo aperiri interpretaris cu. Cibo urbanitas mei no. Cum at etiam homero epicurei, ius fugit vocibus iracundia eu. Id sit munere pericula, vim cu autem disputationi. No aperiri similique eos, indoctum sententiae consequuntur vix ut.\r\n",
+    "slug": "a-step-by-step-guide-to-history",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/8",
+    "_links": {
+      "self": {
+        "href": "/api/posts/13"
+      },
+      "modify": {
+        "href": "/api/posts/13"
+      },
+      "delete": {
+        "href": "/api/posts/13"
+      }
+    }
+  },
+  {
+    "id": "14",
+    "title": "A Computing Success Story You'll Never Believe",
+    "content": "His ad elaboraret mediocritatem, usu graeco fierent democritum ne. Suavitate percipitur conclusionemque eam eu, pertinax salutandi instructior te mel. Usu saepe quando fierent et, ludus euripidis cu nec, eos in soleat consetetur instructior. Vis cu dolore vivendo aliquando, laudem altera eruditi mea no. Iudico nostrud corrumpit vis et, errem facete dissentiet ad cum.",
+    "slug": "a-computing-success-story-you-ll-never-believe",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/2",
+    "_links": {
+      "self": {
+        "href": "/api/posts/14"
+      },
+      "modify": {
+        "href": "/api/posts/14"
+      },
+      "delete": {
+        "href": "/api/posts/14"
+      }
+    }
+  },
+  {
+    "id": "15",
+    "title": "11 Ways to Completely Revamp Your Computing",
+    "content": "Graece petentium duo ad, quo feugiat deserunt in. Est at case vocibus feugait, errem omnesque appareat ex vim. Nec accusamus persecuti deterruisset id, sapientem ullamcorper ex eum. Eos in habemus albucius, novum inimicus ut cum. Ei atomorum oportere cum. Mei ad choro contentiones.\r\n",
+    "slug": "11-ways-to-completely-revamp-your-computing",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/6",
+    "_links": {
+      "self": {
+        "href": "/api/posts/15"
+      },
+      "modify": {
+        "href": "/api/posts/15"
+      },
+      "delete": {
+        "href": "/api/posts/15"
+      }
+    }
+  },
+  {
+    "id": "16",
+    "title": "20 Fun Facts About Aviation",
+    "content": "Ut suscipiantur voluptatibus vis. Cu putent prodesset sit, repudiare rationibus quo eu. Ius ne velit maiorum temporibus. Percipit adipiscing pri ut. Nec appellantur definitiones ad, pri at amet gloriatur, adhuc dicam perfecto ut nec. An eum omittantur voluptatibus definitiones, at vel quando iriure, ad pro simul dolores.",
+    "slug": "20-fun-facts-about-aviation",
+    "picture": "https://fakeimg.pl/350x200/?text=FreeFakeAPI",
+    "user": "/api/users/9",
+    "_links": {
+      "self": {
+        "href": "/api/posts/16"
+      },
+      "modify": {
+        "href": "/api/posts/16"
+      },
+      "delete": {
+        "href": "/api/posts/16"
+      }
+    }
+  }
+]
+ 
+13:16:08.674 [main] INFO  com.intuit.karate - [print] {
+  "id": 202,
+  "title": "FakeFree API Automation",
+  "content": "This is the post content from the postman",
+  "slug": "this-is-the-slug",
+  "picture": "https://path.to/picture.jpg",
+  "user": "/api/users/7",
+  "_links": {
+    "self": {
+      "href": "/api/posts/202"
+    },
+    "modify": {
+      "href": "/api/posts/202"
+    },
+    "delete": {
+      "href": "/api/posts/202"
+    }
+  }
+}
+ 
+13:16:09.743 [main] ERROR com.intuit.karate - classpath:features/FreeFakeAPI.feature:38
+Then status 201
+status code was: 429, expected: 201, response time in milliseconds: 1032, url: https://freefakeapi.io/api/posts/10, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "a8ad0c293ce8b8edeb9a4adf8490126d"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 60db960d745d22f2c433f98213f587ea
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7b831f66cd8bf534532be91e538f42a2"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:38
+13:16:10.859 [main] ERROR com.intuit.karate - classpath:features/FreeFakeAPI.feature:48
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1069, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "c1fccea99f1d0e8a2bbf2ac3a7c465ba"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 4967eb8e13d92b051a02f1e4b56225aa
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "73474cd4b58c3a1711b2633602b0994c"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:48
+13:16:11.952 [main] ERROR com.intuit.karate - classpath:features/FreeFakeAPI.feature:55
+Then status 204
+status code was: 429, expected: 204, response time in milliseconds: 1056, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "476edaa0e555065e9ba60a56311a8be8"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 20ed95f7537715ee2b7508f503235484
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7ce3ec664910a7318c9aef703c480d45"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:55

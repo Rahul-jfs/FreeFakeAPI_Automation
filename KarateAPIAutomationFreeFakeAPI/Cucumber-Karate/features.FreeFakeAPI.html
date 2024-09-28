@@ -1,0 +1,2541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("7d8abfc1-8f2f-4560-af7f-09fb815f6ed5",{name:"280707"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>features.FreeFakeAPI</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-08-03 01:16:11 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>verify collection of posts are generated</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:15]"><span>[2:15]</span> <span>verify single post is accessed</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:21]"><span>[3:21]</span> <span>verify the resource is posted</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4:31]"><span>[4:31]</span> <span>Verify the resource is updated</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[5:41]"><span>[5:41]</span> <span>verify the resource is patched</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[6:51]"><span>[6:51]</span> <span>verify the post is deleted</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/FreeFakeAPI.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">FreefakeAPI functionality</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">verify collection of posts are generated</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2484</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def postBody = read(&quot;classpath://json//createResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">179</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updateBody =  read(&quot;classpath://json//updateResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def patchBody =  read(&quot;classpath://json//patchResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url host</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;/api/posts&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2271</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">13:16:06.298 [print] [
+  {
+    &quot;id&quot;: &quot;1&quot;,
+    &quot;title&quot;: &quot;Let me explain&quot;,
+    &quot;content&quot;: &quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects,&quot;,
+    &quot;slug&quot;: &quot;let-me-explain&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/1&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/1&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/1&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/1&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;title&quot;: &quot;Far Far Away&quot;,
+    &quot;content&quot;: &quot;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary&quot;,
+    &quot;slug&quot;: &quot;far-far-away&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/5&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/2&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/2&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/2&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;title&quot;: &quot;Captain From The Portal&quot;,
+    &quot;content&quot;: &quot;Why I say old chap that is spiffing cack some dodgy chav bugger all mate mufty bleeding nancy boy he nicked it haggle bits and bobs in my flat hanky panky brolly lemon squeezy down the pub ruddy wellies mush buggered vagabond spiffing good time blow off baking cakes have it super William so I said blimey arse over tit a butty cheeky bugger Oxford loo arse lost the plot easy peasy cup of char gosh bonnet cockup absolutely bladdered dropped a clanger&quot;,
+    &quot;slug&quot;: &quot;captain-from-the-portal&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/4&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/3&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/3&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/3&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;4&quot;,
+    &quot;title&quot;: &quot;Stranger With Four Eyes&quot;,
+    &quot;content&quot;: &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. &quot;,
+    &quot;slug&quot;: &quot;stranger-with-four-eyes&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/8&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/4&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/4&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/4&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;5&quot;,
+    &quot;title&quot;: &quot;Enemies Of Nowhere&quot;,
+    &quot;content&quot;: &quot;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&quot;,
+    &quot;slug&quot;: &quot;enemies-of-nowhere&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/5&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/5&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/5&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/5&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;6&quot;,
+    &quot;title&quot;: &quot;Creators And Martians&quot;,
+    &quot;content&quot;: &quot;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.&quot;,
+    &quot;slug&quot;: &quot;creators-and-martians&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/7&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/6&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/6&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/6&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;7&quot;,
+    &quot;title&quot;: &quot;Hidden By Solar Flares&quot;,
+    &quot;content&quot;: &quot;Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \&quot;de Finibus Bonorum et Malorum\&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \&quot;Lorem ipsum dolor sit amet..\&quot;, comes from a line in section 1.10.32.&quot;,
+    &quot;slug&quot;: &quot;hidden-by-solar-flares&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/6&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/7&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/7&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/7&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;8&quot;,
+    &quot;title&quot;: &quot;Serenity Of Outer Space&quot;,
+    &quot;content&quot;: &quot;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \&quot;de Finibus Bonorum et Malorum\&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&quot;,
+    &quot;slug&quot;: &quot;serenity-of-outer-space&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/10&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/8&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/8&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/8&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;9&quot;,
+    &quot;title&quot;: &quot;Officers With Spaceships&quot;,
+    &quot;content&quot;: &quot;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.&quot;,
+    &quot;slug&quot;: &quot;officers-with-spaceships&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/3&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/9&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/9&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/9&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;10&quot;,
+    &quot;title&quot;: &quot;Leaders And Leaders&quot;,
+    &quot;content&quot;: &quot;Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&quot;,
+    &quot;slug&quot;: &quot;leaders-and-leaders&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/2&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/10&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/10&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/10&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;11&quot;,
+    &quot;title&quot;: &quot;5 Killer Quora Answers on History&quot;,
+    &quot;content&quot;: &quot;Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.&quot;,
+    &quot;slug&quot;: &quot;5-killer-quoraanswers-on-history&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/5&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/11&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/11&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/11&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;12&quot;,
+    &quot;title&quot;: &quot;History Explained in Fewer than 140 Characters&quot;,
+    &quot;content&quot;: &quot;Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.&quot;,
+    &quot;slug&quot;: &quot;history-explained-in-fewer-than-140-characters&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/8&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/12&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/12&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/12&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;13&quot;,
+    &quot;title&quot;: &quot;A Step-by-Step Guide to History&quot;,
+    &quot;content&quot;: &quot;Vel ut exerci meliore luptatum. Explicari omittantur ut qui. Ullum tibique omittam ea ius, no vel zril percipit definiebas. Vidisse aperiri et est.\r\n\r\nSumo oportere ad mea, nam probo aperiri interpretaris cu. Cibo urbanitas mei no. Cum at etiam homero epicurei, ius fugit vocibus iracundia eu. Id sit munere pericula, vim cu autem disputationi. No aperiri similique eos, indoctum sententiae consequuntur vix ut.\r\n&quot;,
+    &quot;slug&quot;: &quot;a-step-by-step-guide-to-history&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/8&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/13&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/13&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/13&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;14&quot;,
+    &quot;title&quot;: &quot;A Computing Success Story You&#39;ll Never Believe&quot;,
+    &quot;content&quot;: &quot;His ad elaboraret mediocritatem, usu graeco fierent democritum ne. Suavitate percipitur conclusionemque eam eu, pertinax salutandi instructior te mel. Usu saepe quando fierent et, ludus euripidis cu nec, eos in soleat consetetur instructior. Vis cu dolore vivendo aliquando, laudem altera eruditi mea no. Iudico nostrud corrumpit vis et, errem facete dissentiet ad cum.&quot;,
+    &quot;slug&quot;: &quot;a-computing-success-story-you-ll-never-believe&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/2&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/14&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/14&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/14&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;15&quot;,
+    &quot;title&quot;: &quot;11 Ways to Completely Revamp Your Computing&quot;,
+    &quot;content&quot;: &quot;Graece petentium duo ad, quo feugiat deserunt in. Est at case vocibus feugait, errem omnesque appareat ex vim. Nec accusamus persecuti deterruisset id, sapientem ullamcorper ex eum. Eos in habemus albucius, novum inimicus ut cum. Ei atomorum oportere cum. Mei ad choro contentiones.\r\n&quot;,
+    &quot;slug&quot;: &quot;11-ways-to-completely-revamp-your-computing&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/6&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/15&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/15&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/15&quot;
+      }
+    }
+  },
+  {
+    &quot;id&quot;: &quot;16&quot;,
+    &quot;title&quot;: &quot;20 Fun Facts About Aviation&quot;,
+    &quot;content&quot;: &quot;Ut suscipiantur voluptatibus vis. Cu putent prodesset sit, repudiare rationibus quo eu. Ius ne velit maiorum temporibus. Percipit adipiscing pri ut. Nec appellantur definitiones ad, pri at amet gloriatur, adhuc dicam perfecto ut nec. An eum omittantur voluptatibus definitiones, at vel quando iriure, ad pro simul dolores.&quot;,
+    &quot;slug&quot;: &quot;20-fun-facts-about-aviation&quot;,
+    &quot;picture&quot;: &quot;https://fakeimg.pl/350x200/?text=FreeFakeAPI&quot;,
+    &quot;user&quot;: &quot;/api/users/9&quot;,
+    &quot;_links&quot;: {
+      &quot;self&quot;: {
+        &quot;href&quot;: &quot;/api/posts/16&quot;
+      },
+      &quot;modify&quot;: {
+        &quot;href&quot;: &quot;/api/posts/16&quot;
+      },
+      &quot;delete&quot;: {
+        &quot;href&quot;: &quot;/api/posts/16&quot;
+      }
+    }
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:15]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:15]</span>
+                <span class="scenario-name">verify single post is accessed</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1172</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:15]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def postBody = read(&quot;classpath://json//createResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updateBody =  read(&quot;classpath://json//updateResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def patchBody =  read(&quot;classpath://json//patchResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url host</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;/api/posts/3&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1164</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:21]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:21]</span>
+                <span class="scenario-name">verify the resource is posted</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1178</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:21]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def postBody = read(&quot;classpath://json//createResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updateBody =  read(&quot;classpath://json//updateResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def patchBody =  read(&quot;classpath://json//patchResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url host</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;/api/posts&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &quot;application/json&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &quot;application/json&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request postBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1165</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">13:16:08.676 [print] {
+  &quot;id&quot;: 202,
+  &quot;title&quot;: &quot;FakeFree API Automation&quot;,
+  &quot;content&quot;: &quot;This is the post content from the postman&quot;,
+  &quot;slug&quot;: &quot;this-is-the-slug&quot;,
+  &quot;picture&quot;: &quot;https://path.to/picture.jpg&quot;,
+  &quot;user&quot;: &quot;/api/users/7&quot;,
+  &quot;_links&quot;: {
+    &quot;self&quot;: {
+      &quot;href&quot;: &quot;/api/posts/202&quot;
+    },
+    &quot;modify&quot;: {
+      &quot;href&quot;: &quot;/api/posts/202&quot;
+    },
+    &quot;delete&quot;: {
+      &quot;href&quot;: &quot;/api/posts/202&quot;
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:31]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:31]</span>
+                <span class="scenario-name">Verify the resource is updated</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1049</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:31]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def postBody = read(&quot;classpath://json//createResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updateBody =  read(&quot;classpath://json//updateResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def patchBody =  read(&quot;classpath://json//patchResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url host</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;/api/posts/10&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &quot;application/json&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &quot;application/json&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request updateBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1038</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref failed">38</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.38">13:16:09.748 classpath:features/FreeFakeAPI.feature:38
+Then status 201
+status code was: 429, expected: 201, response time in milliseconds: 1032, url: https://freefakeapi.io/api/posts/10, response: 
+&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;a8ad0c293ce8b8edeb9a4adf8490126d&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge,chrome=1&quot; /&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot; /&gt;
+  &lt;meta name=&quot;retry-after&quot; content=&quot;240&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; integrity=&quot;sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js&quot; integrity=&quot;sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js&quot; integrity=&quot;sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+  &lt;link id=&quot;favicon&quot; rel=&quot;shortcut icon&quot; type=&quot;image/svg+xml&quot; href=&quot;https://o2swit.ch/assets/favicon.svg&quot;/&gt;
+  &lt;link href=&quot;https://o2swit.ch/assets/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+  &lt;title&gt;HTTP 429&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;20&quot;&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot; valign=&quot;middle&quot;&gt;
+      &lt;div class=&quot;o2s-browser-check&quot;&gt;
+        &lt;div id=&quot;o2s-content&quot;&gt;
+          &lt;h1&gt;
+            
+              &lt;i class=&quot;fas fa-hand-paper&quot;&gt;&lt;/i&gt;
+            
+            HTTP 429&lt;br/&gt;
+            &lt;small data-i18n-key=&quot;title&quot;&gt;
+              
+                Ralentissez
+              
+            &lt;/small&gt;
+          &lt;/h1&gt;
+
+          &lt;p style=&quot;margin-top:2em;&quot; data-i18n-key=&quot;lead&quot;&gt;
+            
+              Cette requête a été bloquée par une sécurité activée sur l&#39;hébergement, suite à de trop nombreuses
+              tentatives d&#39;accès détecté (Rate-limit). &lt;br/&gt;
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          &lt;/p&gt;
+
+          
+
+          
+            &lt;p style=&quot;margin-top:1em;&quot;&gt; 
+              &lt;span style=&quot;text-decoration:  none;&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt; &lt;/span&gt;
+              &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;
+                &lt;span data-i18n-key=&quot;link&quot;&gt;
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/p&gt;
+          
+
+
+          
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      
+      &lt;div&gt;
+        &lt;img id=&quot;img&quot; width=&quot;250&quot; src=&quot;https://o2swit.ch/assets/tiger.svg&quot; /&gt;
+        &lt;br/&gt;&lt;br/&gt;
+        &lt;small&gt;
+          &lt;a href=&quot;https://www.o2switch.fr&quot; target=&quot;_blank&quot;&gt;support@o2switch.fr&lt;/a&gt;
+          -
+          &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;Tiger Protect&lt;/a&gt; &lt;br/&gt;
+          &lt;strong&gt;Request ID &lt;/strong&gt;: 60db960d745d22f2c433f98213f587ea
+        &lt;/small&gt;
+        &lt;br&gt;
+      &lt;/div&gt;
+
+      
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  $(document).ready(function() {
+      const supportedLocales = [&quot;en&quot;, &quot;fr&quot;];
+      const translations = {
+          &quot;en&quot;: {
+              &quot;title&quot;: `
+                  
+                    Slow down
+                  
+              `,
+              &quot;lead&quot;: `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).&lt;br/&gt;
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              &quot;link&quot;: &quot;How to manage this security with the Tiger Protect Tool on cPanel ?&quot;, 
+              &quot;rule&quot; : &quot;Name of the security rule triggered&quot;
+          },
+          &quot;fr&quot;: {
+              &quot;title&quot;: `
+                
+                  Ralentissez
+                              
+              `,
+              &quot;lead&quot;: `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l&#39;hébergement, suite à de trop nombreuses
+                    tentatives d&#39;accès détecté (Rate-limit). &lt;br/&gt;
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              &quot;link&quot;: &quot;Comment gérer cette sécurité avec TigerProtect dans cPanel ?&quot;, 
+              &quot;rule&quot; : &quot;Nom de la règle de sécurité déclenchée&quot;
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =&gt;
+              languageCodeOnly ? locale.split(&quot;-&quot;)[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) &gt; -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || &#39;en&#39;;
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll(&quot;[data-i18n-key]&quot;).forEach(function(element) {
+              const key = element.getAttribute(&quot;data-i18n-key&quot;);
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;7b831f66cd8bf534532be91e538f42a2&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;
+
+classpath:features/FreeFakeAPI.feature:38
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref skipped">39</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:41]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:41]</span>
+                <span class="scenario-name">verify the resource is patched</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1081</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:41]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def postBody = read(&quot;classpath://json//createResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updateBody =  read(&quot;classpath://json//updateResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def patchBody =  read(&quot;classpath://json//patchResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url host</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;/api/posts/16&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &quot;application/json&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &quot;application/json&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request patchBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method patch</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1074</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref failed">48</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.48">13:16:10.864 classpath:features/FreeFakeAPI.feature:48
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1069, url: https://freefakeapi.io/api/posts/16, response: 
+&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;c1fccea99f1d0e8a2bbf2ac3a7c465ba&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge,chrome=1&quot; /&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot; /&gt;
+  &lt;meta name=&quot;retry-after&quot; content=&quot;240&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; integrity=&quot;sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js&quot; integrity=&quot;sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js&quot; integrity=&quot;sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+  &lt;link id=&quot;favicon&quot; rel=&quot;shortcut icon&quot; type=&quot;image/svg+xml&quot; href=&quot;https://o2swit.ch/assets/favicon.svg&quot;/&gt;
+  &lt;link href=&quot;https://o2swit.ch/assets/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+  &lt;title&gt;HTTP 429&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;20&quot;&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot; valign=&quot;middle&quot;&gt;
+      &lt;div class=&quot;o2s-browser-check&quot;&gt;
+        &lt;div id=&quot;o2s-content&quot;&gt;
+          &lt;h1&gt;
+            
+              &lt;i class=&quot;fas fa-hand-paper&quot;&gt;&lt;/i&gt;
+            
+            HTTP 429&lt;br/&gt;
+            &lt;small data-i18n-key=&quot;title&quot;&gt;
+              
+                Ralentissez
+              
+            &lt;/small&gt;
+          &lt;/h1&gt;
+
+          &lt;p style=&quot;margin-top:2em;&quot; data-i18n-key=&quot;lead&quot;&gt;
+            
+              Cette requête a été bloquée par une sécurité activée sur l&#39;hébergement, suite à de trop nombreuses
+              tentatives d&#39;accès détecté (Rate-limit). &lt;br/&gt;
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          &lt;/p&gt;
+
+          
+
+          
+            &lt;p style=&quot;margin-top:1em;&quot;&gt; 
+              &lt;span style=&quot;text-decoration:  none;&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt; &lt;/span&gt;
+              &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;
+                &lt;span data-i18n-key=&quot;link&quot;&gt;
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/p&gt;
+          
+
+
+          
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      
+      &lt;div&gt;
+        &lt;img id=&quot;img&quot; width=&quot;250&quot; src=&quot;https://o2swit.ch/assets/tiger.svg&quot; /&gt;
+        &lt;br/&gt;&lt;br/&gt;
+        &lt;small&gt;
+          &lt;a href=&quot;https://www.o2switch.fr&quot; target=&quot;_blank&quot;&gt;support@o2switch.fr&lt;/a&gt;
+          -
+          &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;Tiger Protect&lt;/a&gt; &lt;br/&gt;
+          &lt;strong&gt;Request ID &lt;/strong&gt;: 4967eb8e13d92b051a02f1e4b56225aa
+        &lt;/small&gt;
+        &lt;br&gt;
+      &lt;/div&gt;
+
+      
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  $(document).ready(function() {
+      const supportedLocales = [&quot;en&quot;, &quot;fr&quot;];
+      const translations = {
+          &quot;en&quot;: {
+              &quot;title&quot;: `
+                  
+                    Slow down
+                  
+              `,
+              &quot;lead&quot;: `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).&lt;br/&gt;
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              &quot;link&quot;: &quot;How to manage this security with the Tiger Protect Tool on cPanel ?&quot;, 
+              &quot;rule&quot; : &quot;Name of the security rule triggered&quot;
+          },
+          &quot;fr&quot;: {
+              &quot;title&quot;: `
+                
+                  Ralentissez
+                              
+              `,
+              &quot;lead&quot;: `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l&#39;hébergement, suite à de trop nombreuses
+                    tentatives d&#39;accès détecté (Rate-limit). &lt;br/&gt;
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              &quot;link&quot;: &quot;Comment gérer cette sécurité avec TigerProtect dans cPanel ?&quot;, 
+              &quot;rule&quot; : &quot;Nom de la règle de sécurité déclenchée&quot;
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =&gt;
+              languageCodeOnly ? locale.split(&quot;-&quot;)[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) &gt; -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || &#39;en&#39;;
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll(&quot;[data-i18n-key]&quot;).forEach(function(element) {
+              const key = element.getAttribute(&quot;data-i18n-key&quot;);
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;73474cd4b58c3a1711b2633602b0994c&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;
+
+classpath:features/FreeFakeAPI.feature:48
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.49">
+      <div class="step-ref skipped">49</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[6:51]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[6:51]</span>
+                <span class="scenario-name">verify the post is deleted</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1069</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[6:51]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[6:51]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def postBody = read(&quot;classpath://json//createResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:51]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updateBody =  read(&quot;classpath://json//updateResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:51]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def patchBody =  read(&quot;classpath://json//patchResource.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url host</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;/api/posts/16&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1058</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.55">
+      <div class="step-ref failed">55</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.55">13:16:11.953 classpath:features/FreeFakeAPI.feature:55
+Then status 204
+status code was: 429, expected: 204, response time in milliseconds: 1056, url: https://freefakeapi.io/api/posts/16, response: 
+&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;476edaa0e555065e9ba60a56311a8be8&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge,chrome=1&quot; /&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot; /&gt;
+  &lt;meta name=&quot;retry-after&quot; content=&quot;240&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; integrity=&quot;sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js&quot; integrity=&quot;sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js&quot; integrity=&quot;sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+  &lt;link id=&quot;favicon&quot; rel=&quot;shortcut icon&quot; type=&quot;image/svg+xml&quot; href=&quot;https://o2swit.ch/assets/favicon.svg&quot;/&gt;
+  &lt;link href=&quot;https://o2swit.ch/assets/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+  &lt;title&gt;HTTP 429&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;20&quot;&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot; valign=&quot;middle&quot;&gt;
+      &lt;div class=&quot;o2s-browser-check&quot;&gt;
+        &lt;div id=&quot;o2s-content&quot;&gt;
+          &lt;h1&gt;
+            
+              &lt;i class=&quot;fas fa-hand-paper&quot;&gt;&lt;/i&gt;
+            
+            HTTP 429&lt;br/&gt;
+            &lt;small data-i18n-key=&quot;title&quot;&gt;
+              
+                Ralentissez
+              
+            &lt;/small&gt;
+          &lt;/h1&gt;
+
+          &lt;p style=&quot;margin-top:2em;&quot; data-i18n-key=&quot;lead&quot;&gt;
+            
+              Cette requête a été bloquée par une sécurité activée sur l&#39;hébergement, suite à de trop nombreuses
+              tentatives d&#39;accès détecté (Rate-limit). &lt;br/&gt;
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          &lt;/p&gt;
+
+          
+
+          
+            &lt;p style=&quot;margin-top:1em;&quot;&gt; 
+              &lt;span style=&quot;text-decoration:  none;&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt; &lt;/span&gt;
+              &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;
+                &lt;span data-i18n-key=&quot;link&quot;&gt;
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/p&gt;
+          
+
+
+          
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      
+      &lt;div&gt;
+        &lt;img id=&quot;img&quot; width=&quot;250&quot; src=&quot;https://o2swit.ch/assets/tiger.svg&quot; /&gt;
+        &lt;br/&gt;&lt;br/&gt;
+        &lt;small&gt;
+          &lt;a href=&quot;https://www.o2switch.fr&quot; target=&quot;_blank&quot;&gt;support@o2switch.fr&lt;/a&gt;
+          -
+          &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;Tiger Protect&lt;/a&gt; &lt;br/&gt;
+          &lt;strong&gt;Request ID &lt;/strong&gt;: 20ed95f7537715ee2b7508f503235484
+        &lt;/small&gt;
+        &lt;br&gt;
+      &lt;/div&gt;
+
+      
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  $(document).ready(function() {
+      const supportedLocales = [&quot;en&quot;, &quot;fr&quot;];
+      const translations = {
+          &quot;en&quot;: {
+              &quot;title&quot;: `
+                  
+                    Slow down
+                  
+              `,
+              &quot;lead&quot;: `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).&lt;br/&gt;
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              &quot;link&quot;: &quot;How to manage this security with the Tiger Protect Tool on cPanel ?&quot;, 
+              &quot;rule&quot; : &quot;Name of the security rule triggered&quot;
+          },
+          &quot;fr&quot;: {
+              &quot;title&quot;: `
+                
+                  Ralentissez
+                              
+              `,
+              &quot;lead&quot;: `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l&#39;hébergement, suite à de trop nombreuses
+                    tentatives d&#39;accès détecté (Rate-limit). &lt;br/&gt;
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              &quot;link&quot;: &quot;Comment gérer cette sécurité avec TigerProtect dans cPanel ?&quot;, 
+              &quot;rule&quot; : &quot;Nom de la règle de sécurité déclenchée&quot;
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =&gt;
+              languageCodeOnly ? locale.split(&quot;-&quot;)[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) &gt; -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || &#39;en&#39;;
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll(&quot;[data-i18n-key]&quot;).forEach(function(element) {
+              const key = element.getAttribute(&quot;data-i18n-key&quot;);
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;7ce3ec664910a7318c9aef703c480d45&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;
+
+classpath:features/FreeFakeAPI.feature:55
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

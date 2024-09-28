@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"features\/FreeFakeAPI[1:8]","start":1722671163663,"end":1722671166298,"title":"features\/FreeFakeAPI[1:8] 13:16:03.663-13:16:06.298 verify collection of posts are generated"},{"id":2,"group":1,"content":"features\/FreeFakeAPI[2:15]","start":1722671166309,"end":1722671167482,"title":"features\/FreeFakeAPI[2:15] 13:16:06.309-13:16:07.482 verify single post is accessed"},{"id":3,"group":1,"content":"features\/FreeFakeAPI[3:21]","start":1722671167495,"end":1722671168675,"title":"features\/FreeFakeAPI[3:21] 13:16:07.495-13:16:08.675 verify the resource is posted"},{"id":4,"group":1,"content":"features\/FreeFakeAPI[4:31]","start":1722671168691,"end":1722671169747,"title":"features\/FreeFakeAPI[4:31] 13:16:08.691-13:16:09.747 Verify the resource is updated","className":"failed"},{"id":5,"group":1,"content":"features\/FreeFakeAPI[5:41]","start":1722671169776,"end":1722671170863,"title":"features\/FreeFakeAPI[5:41] 13:16:09.776-13:16:10.863 verify the resource is patched","className":"failed"},{"id":6,"group":1,"content":"features\/FreeFakeAPI[6:51]","start":1722671170881,"end":1722671171952,"title":"features\/FreeFakeAPI[6:51] 13:16:10.881-13:16:11.952 verify the post is deleted","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

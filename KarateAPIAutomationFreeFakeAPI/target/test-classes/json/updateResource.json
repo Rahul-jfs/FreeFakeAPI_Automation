@@ -1,0 +1,8 @@
+{
+  "id": "2",
+  "title": "FakeFree API Automation updated",
+  "content": "This is the post content from the postman",
+  "slug": "this-is-the-slug which is updated",
+  "picture": "https://path.to/picture.jpg",
+  "user": 7
+}

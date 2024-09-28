@@ -64,7 +64,6 @@
                     <systemPropertyVariables>
                         <karate.env>dev</karate.env>
                     </systemPropertyVariables>
-                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
         </plugins>

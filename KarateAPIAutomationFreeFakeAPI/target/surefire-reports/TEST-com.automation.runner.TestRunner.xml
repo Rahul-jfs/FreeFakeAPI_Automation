@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.automation.runner.TestRunner" time="10.755" tests="6" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\ZZModule3\ModuleTest3\KarateAPIAutomation\target\test-classes;C:\ZZModule3\ModuleTest3\KarateAPIAutomation\target\classes;C:\Users\280707\.m2\repository\com\intuit\karate\karate-junit5\1.2.0\karate-junit5-1.2.0.jar;C:\Users\280707\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\280707\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\280707\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\280707\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\280707\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\280707\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\280707\.m2\repository\com\intuit\karate\karate-core\1.2.0\karate-core-1.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\280707\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\280707\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\280707\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\280707\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\280707\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\280707\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\280707\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\280707\.m2\repository\com\linecorp\armeria\armeria\1.13.4\armeria-1.13.4.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\280707\.m2\repository\io\micrometer\micrometer-core\1.7.6\micrometer-core-1.7.6.jar;C:\Users\280707\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\280707\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\280707\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\280707\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.44.Final\netty-tcnative-boringssl-static-2.0.44.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\280707\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.6.0\brotli4j-1.6.0.jar;C:\Users\280707\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.6.0\native-windows-x86_64-1.6.0.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\280707\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\280707\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\280707\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\280707\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\280707\.m2\repository\org\antlr\antlr4-runtime\4.9.2\antlr4-runtime-4.9.2.jar;C:\Users\280707\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\280707\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\280707\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\280707\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\280707\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\280707\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\280707\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\280707\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\280707\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\280707\.m2\repository\io\github\classgraph\classgraph\4.8.108\classgraph-4.8.108.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="karate.env" value="dev"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\jdk-17_windows-x64_bin\jdk-17.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\280707\AppData\Local\Temp\surefire7563237756090274583\surefirebooter8584012034868804503.jar C:\Users\280707\AppData\Local\Temp\surefire7563237756090274583 2024-08-03T13-16-01_030-jvmRun1 surefire6994532269159651608tmp surefire_015481272885515039094tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\ZZModule3\ModuleTest3\KarateAPIAutomation\target\test-classes;C:\ZZModule3\ModuleTest3\KarateAPIAutomation\target\classes;C:\Users\280707\.m2\repository\com\intuit\karate\karate-junit5\1.2.0\karate-junit5-1.2.0.jar;C:\Users\280707\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\280707\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\280707\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\280707\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\280707\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\280707\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\280707\.m2\repository\com\intuit\karate\karate-core\1.2.0\karate-core-1.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\280707\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\280707\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\280707\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\280707\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\280707\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\280707\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\280707\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\280707\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\280707\.m2\repository\com\linecorp\armeria\armeria\1.13.4\armeria-1.13.4.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\280707\.m2\repository\io\micrometer\micrometer-core\1.7.6\micrometer-core-1.7.6.jar;C:\Users\280707\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\280707\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\280707\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\280707\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\280707\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.44.Final\netty-tcnative-boringssl-static-2.0.44.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\280707\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\280707\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.6.0\brotli4j-1.6.0.jar;C:\Users\280707\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.6.0\native-windows-x86_64-1.6.0.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\280707\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\280707\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\280707\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\280707\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\280707\.m2\repository\org\antlr\antlr4-runtime\4.9.2\antlr4-runtime-4.9.2.jar;C:\Users\280707\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\280707\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\280707\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\280707\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\280707\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\280707\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\280707\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\280707\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\280707\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\280707\.m2\repository\io\github\classgraph\classgraph\4.8.108\classgraph-4.8.108.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\280707"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\jdk-17_windows-x64_bin\jdk-17.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\ZZModule3\ModuleTest3\KarateAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\280707\AppData\Local\Temp\surefire7563237756090274583\surefirebooter8584012034868804503.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="280707"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\280707\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\280707\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.4"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\ZZModule3\ModuleTest3\KarateAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk-17_windows-x64_bin\jdk-17.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Windows\CCM;C:\Windows\CCM;C:\Users\280707\AppData\Local\Microsoft\WindowsApps;C:\jdk-17_windows-x64_bin\jdk-17.0.12\bin;C:\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Git\cmd;C:\allure-2.30.0\allure-2.30.0\bin;C:\Users\280707\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSuite[1][1]" classname="com.automation.runner.TestRunner" time="3.353"/>
+  <testcase name="testSuite[1][2]" classname="com.automation.runner.TestRunner" time="1.18"/>
+  <testcase name="testSuite[1][3]" classname="com.automation.runner.TestRunner" time="1.192"/>
+  <testcase name="testSuite[1][4]" classname="com.automation.runner.TestRunner" time="1.095">
+    <failure message="status code was: 429, expected: 201, response time in milliseconds: 1032, url: https://freefakeapi.io/api/posts/10, response: &#10;&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;a8ad0c293ce8b8edeb9a4adf8490126d&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;&#10;&lt;!DOCTYPE HTML&gt;&#10;&lt;html lang=&quot;en-US&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;UTF-8&quot; /&gt;&#10;  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#10;  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge,chrome=1&quot; /&gt;&#10;  &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot; /&gt;&#10;  &lt;meta name=&quot;retry-after&quot; content=&quot;240&quot; /&gt;&#10;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot; /&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; integrity=&quot;sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&#10;  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js&quot; integrity=&quot;sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;&#10;  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js&quot; integrity=&quot;sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;&#10;  &lt;link id=&quot;favicon&quot; rel=&quot;shortcut icon&quot; type=&quot;image/svg+xml&quot; href=&quot;https://o2swit.ch/assets/favicon.svg&quot;/&gt;&#10;  &lt;link href=&quot;https://o2swit.ch/assets/style.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&#10;  &lt;title&gt;HTTP 429&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;20&quot;&gt;&#10;  &lt;tr&gt;&#10;    &lt;td align=&quot;center&quot; valign=&quot;middle&quot;&gt;&#10;      &lt;div class=&quot;o2s-browser-check&quot;&gt;&#10;        &lt;div id=&quot;o2s-content&quot;&gt;&#10;          &lt;h1&gt;&#10;            &#10;              &lt;i class=&quot;fas fa-hand-paper&quot;&gt;&lt;/i&gt;&#10;            &#10;            HTTP 429&lt;br/&gt;&#10;            &lt;small data-i18n-key=&quot;title&quot;&gt;&#10;              &#10;                Ralentissez&#10;              &#10;            &lt;/small&gt;&#10;          &lt;/h1&gt;&#10;&#10;          &lt;p style=&quot;margin-top:2em;&quot; data-i18n-key=&quot;lead&quot;&gt;&#10;            &#10;              Cette requête a été bloquée par une sécurité activée sur l&apos;hébergement, suite à de trop nombreuses&#10;              tentatives d&apos;accès détecté (Rate-limit). &lt;br/&gt;&#10;              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.&#10;            &#10;          &lt;/p&gt;&#10;&#10;          &#10;&#10;          &#10;            &lt;p style=&quot;margin-top:1em;&quot;&gt; &#10;              &lt;span style=&quot;text-decoration:  none;&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt; &lt;/span&gt;&#10;              &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;&#10;                &lt;span data-i18n-key=&quot;link&quot;&gt;&#10;                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?&#10;                &lt;/span&gt;&#10;              &lt;/a&gt;&#10;            &lt;/p&gt;&#10;          &#10;&#10;&#10;          &#10;&#10;        &lt;/div&gt;&#10;      &lt;/div&gt;&#10;&#10;      &#10;      &lt;div&gt;&#10;        &lt;img id=&quot;img&quot; width=&quot;250&quot; src=&quot;https://o2swit.ch/assets/tiger.svg&quot; /&gt;&#10;        &lt;br/&gt;&lt;br/&gt;&#10;        &lt;small&gt;&#10;          &lt;a href=&quot;https://www.o2switch.fr&quot; target=&quot;_blank&quot;&gt;support@o2switch.fr&lt;/a&gt;&#10;          -&#10;          &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;Tiger Protect&lt;/a&gt; &lt;br/&gt;&#10;          &lt;strong&gt;Request ID &lt;/strong&gt;: 60db960d745d22f2c433f98213f587ea&#10;        &lt;/small&gt;&#10;        &lt;br&gt;&#10;      &lt;/div&gt;&#10;&#10;      &#10;    &lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;  $(document).ready(function() {&#10;      const supportedLocales = [&quot;en&quot;, &quot;fr&quot;];&#10;      const translations = {&#10;          &quot;en&quot;: {&#10;              &quot;title&quot;: `&#10;                  &#10;                    Slow down&#10;                  &#10;              `,&#10;              &quot;lead&quot;: `&#10;                &#10;                  This request was blocked by a security enabled on the hosting account, following too many&#10;                  access attempts detected (Rate-limited).&lt;br/&gt;&#10;                  If you are the webmaster of this site, you can disable this security from your cPanel account.&#10;                &#10;              `,&#10;              &quot;link&quot;: &quot;How to manage this security with the Tiger Protect Tool on cPanel ?&quot;, &#10;              &quot;rule&quot; : &quot;Name of the security rule triggered&quot;&#10;          },&#10;          &quot;fr&quot;: {&#10;              &quot;title&quot;: `&#10;                &#10;                  Ralentissez&#10;                              &#10;              `,&#10;              &quot;lead&quot;: `&#10;                  &#10;                    Cette requête a été bloquée par une sécurité activée sur l&apos;hébergement, suite à de trop nombreuses&#10;                    tentatives d&apos;accès détecté (Rate-limit). &lt;br/&gt;&#10;                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.&#10;                  &#10;              `,&#10;              &quot;link&quot;: &quot;Comment gérer cette sécurité avec TigerProtect dans cPanel ?&quot;, &#10;              &quot;rule&quot; : &quot;Nom de la règle de sécurité déclenchée&quot;&#10;          },&#10;      };&#10;      function browserLocales(languageCodeOnly = false) {&#10;          return navigator.languages.map((locale) =&gt;&#10;              languageCodeOnly ? locale.split(&quot;-&quot;)[0] : locale,&#10;          );&#10;      }&#10;      function isSupported(locale) {&#10;          return supportedLocales.indexOf(locale) &gt; -1;&#10;      }&#10;      function supportedOrDefault(locales) {&#10;          return locales.find(isSupported) || &apos;en&apos;;&#10;      }&#10;      const locale = supportedOrDefault(browserLocales(true));&#10;&#10;      document.querySelectorAll(&quot;[data-i18n-key]&quot;).forEach(function(element) {&#10;              const key = element.getAttribute(&quot;data-i18n-key&quot;);&#10;              const translation = translations[locale][key];&#10;              element.innerHTML = translation;&#10;          }&#10;      );&#10;    });&#10;  &lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;7b831f66cd8bf534532be91e538f42a2&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;&#10;&#10;classpath:features/FreeFakeAPI.feature:38" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 429, expected: 201, response time in milliseconds: 1032, url: https://freefakeapi.io/api/posts/10, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "a8ad0c293ce8b8edeb9a4adf8490126d"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 60db960d745d22f2c433f98213f587ea
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7b831f66cd8bf534532be91e538f42a2"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:38
+]]></failure>
+    <system-out><![CDATA[13:16:09.743 [main] ERROR com.intuit.karate - classpath:features/FreeFakeAPI.feature:38
+Then status 201
+status code was: 429, expected: 201, response time in milliseconds: 1032, url: https://freefakeapi.io/api/posts/10, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "a8ad0c293ce8b8edeb9a4adf8490126d"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 60db960d745d22f2c433f98213f587ea
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7b831f66cd8bf534532be91e538f42a2"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:38
+]]></system-out>
+  </testcase>
+  <testcase name="testSuite[1][5]" classname="com.automation.runner.TestRunner" time="1.095">
+    <failure message="status code was: 429, expected: 200, response time in milliseconds: 1069, url: https://freefakeapi.io/api/posts/16, response: &#10;&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;c1fccea99f1d0e8a2bbf2ac3a7c465ba&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;&#10;&lt;!DOCTYPE HTML&gt;&#10;&lt;html lang=&quot;en-US&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;UTF-8&quot; /&gt;&#10;  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#10;  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge,chrome=1&quot; /&gt;&#10;  &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot; /&gt;&#10;  &lt;meta name=&quot;retry-after&quot; content=&quot;240&quot; /&gt;&#10;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot; /&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; integrity=&quot;sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&#10;  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js&quot; integrity=&quot;sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;&#10;  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js&quot; integrity=&quot;sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;&#10;  &lt;link id=&quot;favicon&quot; rel=&quot;shortcut icon&quot; type=&quot;image/svg+xml&quot; href=&quot;https://o2swit.ch/assets/favicon.svg&quot;/&gt;&#10;  &lt;link href=&quot;https://o2swit.ch/assets/style.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&#10;  &lt;title&gt;HTTP 429&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;20&quot;&gt;&#10;  &lt;tr&gt;&#10;    &lt;td align=&quot;center&quot; valign=&quot;middle&quot;&gt;&#10;      &lt;div class=&quot;o2s-browser-check&quot;&gt;&#10;        &lt;div id=&quot;o2s-content&quot;&gt;&#10;          &lt;h1&gt;&#10;            &#10;              &lt;i class=&quot;fas fa-hand-paper&quot;&gt;&lt;/i&gt;&#10;            &#10;            HTTP 429&lt;br/&gt;&#10;            &lt;small data-i18n-key=&quot;title&quot;&gt;&#10;              &#10;                Ralentissez&#10;              &#10;            &lt;/small&gt;&#10;          &lt;/h1&gt;&#10;&#10;          &lt;p style=&quot;margin-top:2em;&quot; data-i18n-key=&quot;lead&quot;&gt;&#10;            &#10;              Cette requête a été bloquée par une sécurité activée sur l&apos;hébergement, suite à de trop nombreuses&#10;              tentatives d&apos;accès détecté (Rate-limit). &lt;br/&gt;&#10;              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.&#10;            &#10;          &lt;/p&gt;&#10;&#10;          &#10;&#10;          &#10;            &lt;p style=&quot;margin-top:1em;&quot;&gt; &#10;              &lt;span style=&quot;text-decoration:  none;&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt; &lt;/span&gt;&#10;              &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;&#10;                &lt;span data-i18n-key=&quot;link&quot;&gt;&#10;                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?&#10;                &lt;/span&gt;&#10;              &lt;/a&gt;&#10;            &lt;/p&gt;&#10;          &#10;&#10;&#10;          &#10;&#10;        &lt;/div&gt;&#10;      &lt;/div&gt;&#10;&#10;      &#10;      &lt;div&gt;&#10;        &lt;img id=&quot;img&quot; width=&quot;250&quot; src=&quot;https://o2swit.ch/assets/tiger.svg&quot; /&gt;&#10;        &lt;br/&gt;&lt;br/&gt;&#10;        &lt;small&gt;&#10;          &lt;a href=&quot;https://www.o2switch.fr&quot; target=&quot;_blank&quot;&gt;support@o2switch.fr&lt;/a&gt;&#10;          -&#10;          &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;Tiger Protect&lt;/a&gt; &lt;br/&gt;&#10;          &lt;strong&gt;Request ID &lt;/strong&gt;: 4967eb8e13d92b051a02f1e4b56225aa&#10;        &lt;/small&gt;&#10;        &lt;br&gt;&#10;      &lt;/div&gt;&#10;&#10;      &#10;    &lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;  $(document).ready(function() {&#10;      const supportedLocales = [&quot;en&quot;, &quot;fr&quot;];&#10;      const translations = {&#10;          &quot;en&quot;: {&#10;              &quot;title&quot;: `&#10;                  &#10;                    Slow down&#10;                  &#10;              `,&#10;              &quot;lead&quot;: `&#10;                &#10;                  This request was blocked by a security enabled on the hosting account, following too many&#10;                  access attempts detected (Rate-limited).&lt;br/&gt;&#10;                  If you are the webmaster of this site, you can disable this security from your cPanel account.&#10;                &#10;              `,&#10;              &quot;link&quot;: &quot;How to manage this security with the Tiger Protect Tool on cPanel ?&quot;, &#10;              &quot;rule&quot; : &quot;Name of the security rule triggered&quot;&#10;          },&#10;          &quot;fr&quot;: {&#10;              &quot;title&quot;: `&#10;                &#10;                  Ralentissez&#10;                              &#10;              `,&#10;              &quot;lead&quot;: `&#10;                  &#10;                    Cette requête a été bloquée par une sécurité activée sur l&apos;hébergement, suite à de trop nombreuses&#10;                    tentatives d&apos;accès détecté (Rate-limit). &lt;br/&gt;&#10;                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.&#10;                  &#10;              `,&#10;              &quot;link&quot;: &quot;Comment gérer cette sécurité avec TigerProtect dans cPanel ?&quot;, &#10;              &quot;rule&quot; : &quot;Nom de la règle de sécurité déclenchée&quot;&#10;          },&#10;      };&#10;      function browserLocales(languageCodeOnly = false) {&#10;          return navigator.languages.map((locale) =&gt;&#10;              languageCodeOnly ? locale.split(&quot;-&quot;)[0] : locale,&#10;          );&#10;      }&#10;      function isSupported(locale) {&#10;          return supportedLocales.indexOf(locale) &gt; -1;&#10;      }&#10;      function supportedOrDefault(locales) {&#10;          return locales.find(isSupported) || &apos;en&apos;;&#10;      }&#10;      const locale = supportedOrDefault(browserLocales(true));&#10;&#10;      document.querySelectorAll(&quot;[data-i18n-key]&quot;).forEach(function(element) {&#10;              const key = element.getAttribute(&quot;data-i18n-key&quot;);&#10;              const translation = translations[locale][key];&#10;              element.innerHTML = translation;&#10;          }&#10;      );&#10;    });&#10;  &lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;73474cd4b58c3a1711b2633602b0994c&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;&#10;&#10;classpath:features/FreeFakeAPI.feature:48" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 429, expected: 200, response time in milliseconds: 1069, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "c1fccea99f1d0e8a2bbf2ac3a7c465ba"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 4967eb8e13d92b051a02f1e4b56225aa
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "73474cd4b58c3a1711b2633602b0994c"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:48
+]]></failure>
+    <system-out><![CDATA[13:16:10.859 [main] ERROR com.intuit.karate - classpath:features/FreeFakeAPI.feature:48
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1069, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "c1fccea99f1d0e8a2bbf2ac3a7c465ba"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 4967eb8e13d92b051a02f1e4b56225aa
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "73474cd4b58c3a1711b2633602b0994c"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:48
+]]></system-out>
+  </testcase>
+  <testcase name="testSuite[1][6]" classname="com.automation.runner.TestRunner" time="1.881">
+    <failure message="status code was: 429, expected: 204, response time in milliseconds: 1056, url: https://freefakeapi.io/api/posts/16, response: &#10;&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;476edaa0e555065e9ba60a56311a8be8&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;&#10;&lt;!DOCTYPE HTML&gt;&#10;&lt;html lang=&quot;en-US&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;UTF-8&quot; /&gt;&#10;  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#10;  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge,chrome=1&quot; /&gt;&#10;  &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot; /&gt;&#10;  &lt;meta name=&quot;retry-after&quot; content=&quot;240&quot; /&gt;&#10;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot; /&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; integrity=&quot;sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&#10;  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js&quot; integrity=&quot;sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;&#10;  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js&quot; integrity=&quot;sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;&#10;  &lt;link id=&quot;favicon&quot; rel=&quot;shortcut icon&quot; type=&quot;image/svg+xml&quot; href=&quot;https://o2swit.ch/assets/favicon.svg&quot;/&gt;&#10;  &lt;link href=&quot;https://o2swit.ch/assets/style.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&#10;  &lt;title&gt;HTTP 429&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;20&quot;&gt;&#10;  &lt;tr&gt;&#10;    &lt;td align=&quot;center&quot; valign=&quot;middle&quot;&gt;&#10;      &lt;div class=&quot;o2s-browser-check&quot;&gt;&#10;        &lt;div id=&quot;o2s-content&quot;&gt;&#10;          &lt;h1&gt;&#10;            &#10;              &lt;i class=&quot;fas fa-hand-paper&quot;&gt;&lt;/i&gt;&#10;            &#10;            HTTP 429&lt;br/&gt;&#10;            &lt;small data-i18n-key=&quot;title&quot;&gt;&#10;              &#10;                Ralentissez&#10;              &#10;            &lt;/small&gt;&#10;          &lt;/h1&gt;&#10;&#10;          &lt;p style=&quot;margin-top:2em;&quot; data-i18n-key=&quot;lead&quot;&gt;&#10;            &#10;              Cette requête a été bloquée par une sécurité activée sur l&apos;hébergement, suite à de trop nombreuses&#10;              tentatives d&apos;accès détecté (Rate-limit). &lt;br/&gt;&#10;              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.&#10;            &#10;          &lt;/p&gt;&#10;&#10;          &#10;&#10;          &#10;            &lt;p style=&quot;margin-top:1em;&quot;&gt; &#10;              &lt;span style=&quot;text-decoration:  none;&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt; &lt;/span&gt;&#10;              &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;&#10;                &lt;span data-i18n-key=&quot;link&quot;&gt;&#10;                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?&#10;                &lt;/span&gt;&#10;              &lt;/a&gt;&#10;            &lt;/p&gt;&#10;          &#10;&#10;&#10;          &#10;&#10;        &lt;/div&gt;&#10;      &lt;/div&gt;&#10;&#10;      &#10;      &lt;div&gt;&#10;        &lt;img id=&quot;img&quot; width=&quot;250&quot; src=&quot;https://o2swit.ch/assets/tiger.svg&quot; /&gt;&#10;        &lt;br/&gt;&lt;br/&gt;&#10;        &lt;small&gt;&#10;          &lt;a href=&quot;https://www.o2switch.fr&quot; target=&quot;_blank&quot;&gt;support@o2switch.fr&lt;/a&gt;&#10;          -&#10;          &lt;a href=&quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot; target=&quot;_blank&quot;&gt;Tiger Protect&lt;/a&gt; &lt;br/&gt;&#10;          &lt;strong&gt;Request ID &lt;/strong&gt;: 20ed95f7537715ee2b7508f503235484&#10;        &lt;/small&gt;&#10;        &lt;br&gt;&#10;      &lt;/div&gt;&#10;&#10;      &#10;    &lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;  $(document).ready(function() {&#10;      const supportedLocales = [&quot;en&quot;, &quot;fr&quot;];&#10;      const translations = {&#10;          &quot;en&quot;: {&#10;              &quot;title&quot;: `&#10;                  &#10;                    Slow down&#10;                  &#10;              `,&#10;              &quot;lead&quot;: `&#10;                &#10;                  This request was blocked by a security enabled on the hosting account, following too many&#10;                  access attempts detected (Rate-limited).&lt;br/&gt;&#10;                  If you are the webmaster of this site, you can disable this security from your cPanel account.&#10;                &#10;              `,&#10;              &quot;link&quot;: &quot;How to manage this security with the Tiger Protect Tool on cPanel ?&quot;, &#10;              &quot;rule&quot; : &quot;Name of the security rule triggered&quot;&#10;          },&#10;          &quot;fr&quot;: {&#10;              &quot;title&quot;: `&#10;                &#10;                  Ralentissez&#10;                              &#10;              `,&#10;              &quot;lead&quot;: `&#10;                  &#10;                    Cette requête a été bloquée par une sécurité activée sur l&apos;hébergement, suite à de trop nombreuses&#10;                    tentatives d&apos;accès détecté (Rate-limit). &lt;br/&gt;&#10;                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.&#10;                  &#10;              `,&#10;              &quot;link&quot;: &quot;Comment gérer cette sécurité avec TigerProtect dans cPanel ?&quot;, &#10;              &quot;rule&quot; : &quot;Nom de la règle de sécurité déclenchée&quot;&#10;          },&#10;      };&#10;      function browserLocales(languageCodeOnly = false) {&#10;          return navigator.languages.map((locale) =&gt;&#10;              languageCodeOnly ? locale.split(&quot;-&quot;)[0] : locale,&#10;          );&#10;      }&#10;      function isSupported(locale) {&#10;          return supportedLocales.indexOf(locale) &gt; -1;&#10;      }&#10;      function supportedOrDefault(locales) {&#10;          return locales.find(isSupported) || &apos;en&apos;;&#10;      }&#10;      const locale = supportedOrDefault(browserLocales(true));&#10;&#10;      document.querySelectorAll(&quot;[data-i18n-key]&quot;).forEach(function(element) {&#10;              const key = element.getAttribute(&quot;data-i18n-key&quot;);&#10;              const translation = translations[locale][key];&#10;              element.innerHTML = translation;&#10;          }&#10;      );&#10;    });&#10;  &lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;&lt;!--Debug [[Security_Rule = &quot;&quot;; More_info = &quot;&quot;; HTTP_Code = &quot;429&quot;&quot;; Request_ID = &quot;7ce3ec664910a7318c9aef703c480d45&quot;; Support = &quot;support@o2switch.fr&quot;; Link = &quot;https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect&quot;]] EndOfDebug--&gt;&#10;&#10;classpath:features/FreeFakeAPI.feature:55" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 429, expected: 204, response time in milliseconds: 1056, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "476edaa0e555065e9ba60a56311a8be8"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 20ed95f7537715ee2b7508f503235484
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7ce3ec664910a7318c9aef703c480d45"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:55
+]]></failure>
+    <system-out><![CDATA[13:16:11.952 [main] ERROR com.intuit.karate - classpath:features/FreeFakeAPI.feature:55
+Then status 204
+status code was: 429, expected: 204, response time in milliseconds: 1056, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "476edaa0e555065e9ba60a56311a8be8"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 20ed95f7537715ee2b7508f503235484
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7ce3ec664910a7318c9aef703c480d45"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:55
+---------------------------------------------------------
+feature: classpath:features/FreeFakeAPI.feature
+scenarios:  6 | passed:  3 | failed:  3 | time: 8.0334
+---------------------------------------------------------
+
+Karate version: 1.2.0
+======================================================
+elapsed:  10.42 | threads:    1 | thread time: 8.03 
+features:     1 | skipped:    0 | efficiency: 0.77
+scenarios:    6 | passed:     3 | failed: 3
+======================================================
+>>> failed features:
+status code was: 429, expected: 201, response time in milliseconds: 1032, url: https://freefakeapi.io/api/posts/10, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "a8ad0c293ce8b8edeb9a4adf8490126d"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 60db960d745d22f2c433f98213f587ea
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7b831f66cd8bf534532be91e538f42a2"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:38
+status code was: 429, expected: 200, response time in milliseconds: 1069, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "c1fccea99f1d0e8a2bbf2ac3a7c465ba"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 4967eb8e13d92b051a02f1e4b56225aa
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "73474cd4b58c3a1711b2633602b0994c"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:48
+status code was: 429, expected: 204, response time in milliseconds: 1056, url: https://freefakeapi.io/api/posts/16, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "476edaa0e555065e9ba60a56311a8be8"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 20ed95f7537715ee2b7508f503235484
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7ce3ec664910a7318c9aef703c480d45"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:features/FreeFakeAPI.feature:55
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.2.0
+file:///C:/ZZModule3/ModuleTest3/KarateAPIAutomation/Cucumber-Karate/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
